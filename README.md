@@ -1,5 +1,6 @@
 # Resume-extraction-and-candidate-job-matching
 Resume extraction and candidate job matching using python transformers library DistilBERT
+The python notebook file contains code to solve all the 3 tasks given below.
 
 Task assigned: Resume Matching with Job Descriptions Using PDF CVs
 
