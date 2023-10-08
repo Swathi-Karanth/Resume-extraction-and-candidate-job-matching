@@ -39,5 +39,3 @@ Convert the tokenized text into embeddings using a pretrained model like DistilB
 For each job description, calculate the cosine similarity between its embedding and the embeddings of the CVs.
 Rank CVs based on this similarity for each job description.
 List the top 5 CVs for each job description based on the highest similarity scores.
-
-(fyi, I've cleared the output cells to avoid lengthy blocks of output.)
