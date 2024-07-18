@@ -1,8 +1,6 @@
 # Resume-extraction-and-candidate-job-matching
-Resume extraction and candidate job matching using python transformers library DistilBERT.
+### Resume extraction and candidate job matching using python transformers library DistilBERT.
 The python notebook file contains code to solve all the 3 tasks given below.
-
-Task assigned: Resume Matching with Job Descriptions Using PDF CVs
 
 Objective: Build a PDF extractor to pull relevant details from CVs in PDF format, and match them against the job descriptions from the Hugging Face dataset.
 
