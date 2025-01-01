@@ -27,10 +27,11 @@ Use the Hugging Face datasets library to fetch the job descriptions. For this ta
 3. Candidate-Job Matching
 Objective: Match extracted CV details against the fetched job descriptions based on skills and education.
 
-Tools Suggested: Use the Transformers library by Hugging Face. BERT or DistilBERT can be a starting point for embedding extraction.
+Tools Used: Use the Transformers library by Hugging Face. BERT or DistilBERT (can be replaced with better LLMs. This task was performed with minimal GPU power)
 
-Tokenize and preprocess both the job descriptions and the extracted CV details from the PDFs.
-Convert the tokenized text into embeddings using a pretrained model like DistilBERT from Hugging Face.
-For each job description, calculate the cosine similarity between its embedding and the embeddings of the CVs.
-Rank CVs based on this similarity for each job description.
-List the top 5 CVs for each job description based on the highest similarity scores.
+### Tasks Performed
+- Tokenizing and preprocessing both the job descriptions and the extracted CV details from the PDFs.
+- Converting the tokenized text into embeddings using a pretrained model like DistilBERT from Hugging Face.
+- For each job description, calculating the cosine similarity between its embedding and the embeddings of the CVs.
+- Ranking CVs based on this similarity for each job description.
+- Listing the top 5 CVs for each job description based on the highest similarity scores.
